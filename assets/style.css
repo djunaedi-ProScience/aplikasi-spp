@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(5, 129, 212);
+    height: 10vh;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.5em;
+    color: white;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.pembungkus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.links li{
+    list-style: none;
+    margin-right: auto;
+ 
+}
+
+.links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Login */
+
+
+
+
+
+.card2{
+
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(25, 179, 226);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 15px 8px rgb(0, 0, 0,.2);
+    border-radius: 5px;
+}
+
+.card2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.form-group2
+{
+    padding: 5px;
+    width: 100%;
+}
+.form-group2 label{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+input[type="text"]
+{
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding:5px 0;
+    border-radius: 5px;
+}
+
+.card2 button
+{
+    border: solid rgb(0, 140, 255);
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: rgb(25, 179, 226);
+    font-size: 20px;
+    font-weight:bold;
+}
+
+
+
+@media (max-width: 575.98px) {
+
+    .pembungkus .logo{
+        font-size: 14px; !important
+
+    }
+
+    .links li a{
+        font-size: 13px;
+    }
+    .section{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    td,th{
+        font-size:12px;
+    }
+    .links a{
+        margin-top: 12px;
+    }
+    .navbar-brand{
+        font-size: .8rem; !important
+    }
+ 
+
+ }
+
+
